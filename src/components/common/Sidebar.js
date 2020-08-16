@@ -12,8 +12,7 @@ const SidebarWrap = styled.div`
 function Sidebar() {
   return (
     <SidebarWrap>
-      <h2>I am a Sidebar</h2>
-      <SidebarRow title="Home" Icon={HomeIcon} />
+      <SidebarRow selected title="Home" Icon={HomeIcon} />
       <SidebarRow title="Trending" Icon={WhatshotIcon} />
       <SidebarRow title="Subscription" Icon={SubscriptionsIcon} />
     </SidebarWrap>

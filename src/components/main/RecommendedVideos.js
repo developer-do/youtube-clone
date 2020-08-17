@@ -234,9 +234,12 @@ function RecommendedVideos() {
         <h2>Recommended</h2>
         <div className="recommendedVideos__videos">
           {VideoInfos.map(
-            ({ title, views, timestamp, channelImage, channel, iamge }) => (
+            (
+              { title, views, timestamp, channelImage, channel, iamge },
+              index
+            ) => (
               <VideoCard
-                key={title}
+                key={index}
                 title={title}
                 views={views}
                 timestamp={timestamp}

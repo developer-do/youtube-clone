@@ -14,23 +14,26 @@ const VideoCardWrap = styled.div`
 
     &__info {
       display: flex;
-      padding-right: 40px;
+      margin-top: 10px;
+      padding-right: 30px;
     }
 
     &__text {
-      flex: 1;
+      margin-left: 15px;
 
       h4 {
         font-size: 14px;
-        margin-bottom: 4px;
+        margin-bottom: 5px;
       }
       p {
-        font-size: 12.5px;
+        font-size: 13px;
+        color: gray;
       }
     }
 
     &__avatar {
-      margin-right: 10px;
+      height: 30px !important;
+      width: 30px !important;
     }
 
     &__image {

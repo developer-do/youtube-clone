@@ -55,7 +55,7 @@ function SidebarRow(props) {
   const { title, Icon, selected } = props;
   return (
     <SideBarRows>
-      <div class={`sidebarRow ${selected && "selected"}`}>
+      <div className={`sidebarRow ${selected && "selected"}`}>
         <Icon className="sidebarRow__icon" />
         <h2 className="sidebarRow__title">{title}</h2>
       </div>
